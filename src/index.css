@@ -471,7 +471,7 @@ footer {
   background-color: #242424;
 }
 
-.footer__logo {
+.footer__logo, .footer__personal--logo {
   display: flex;
   justify-content: center;
 }
@@ -500,6 +500,12 @@ footer {
 
 .footer__link {
   padding: 0 8px;
+}
+
+.personal__logo--img {
+  width: 85px;
+  height: 85px;
+  filter: invert(1);
 }
 
 /* 

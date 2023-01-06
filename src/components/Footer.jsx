@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo.png';
+import PersonalLogo from '../assets/personal_logo.png';
 
 const Footer = () => {
   return (
@@ -21,6 +22,9 @@ const Footer = () => {
           <div className="footer__copyright">
             Copyright &copy; 2022 Book Bay
           </div>
+          <figure className="footer__personal--logo">
+            <img src={PersonalLogo} className="personal__logo--img" />
+          </figure>
         </div>
       </div>
     </footer>

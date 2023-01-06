@@ -7,6 +7,7 @@ export const books = [
     originalPrice: 29.99,
     salePrice: null,
     rating: 4,
+    description: "A story of love, heartache, betrayal and personal decisions, It Ends With Us follows a young woman named Lily. When Lily meets Ryle, a successful surgeon, she thinks that her dreams have come true. In a life far away from her small-town upbringing, Lily knows the tides have changed in her favour.",
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 19.95,
     rating: 4.5,
+    description: "Harry Potter and the Philosopher's Stone is an enthralling start to Harry's journey toward coming to terms with his past and facing his future. It was the first book written by Rowling, and she was praised for creating well-rounded characters and a fully realized wizard universe that coexisted with the present world.",
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ export const books = [
     originalPrice: 29.99,
     salePrice: 14.95,
     rating: 3.5,
+    description: "Sorry for Your Loss explores grief, friendship, love, heartbreak and unity among families who are with you for better or worse. Woven throughout with Pup's irreverent humor, this book never becomes too bleak or heavy, even with the difficult themes it explores.",
   },
   {
     id: 4,
@@ -31,14 +34,16 @@ export const books = [
     originalPrice: 34.99,
     salePrice: null,
     rating: 4.5,
+    description: "In this gripping sequel to the New York Times bestselling Infinity Son, Adam Silvera brings a diverse cast of heroes and villains to life in an alternate New York where some people are born with powers, while others steal them from the blood of endangered magical creatures .",
   },
   {
     id: 5,
-    title: "Diary of a Wimpy KLid: Special CHEESIEST Edition",
+    title: "Diary of a Wimpy Kid: Special CHEESIEST Edition",
     url: "https://covers.openlibrary.org/b/id/12474088-L.jpg",
     originalPrice: 24.99,
     salePrice: 19.95,
     rating: 5,
+    description: "It’s a new school year, and Greg Heffley finds himself thrust into middle school, where undersized weaklings share the hallways with kids who are taller, meaner, and already shaving. The hazards of growing up before you’re ready are uniquely revealed through words and drawings as Greg records them in his diary.",
   },
   {
     id: 6,
@@ -47,6 +52,7 @@ export const books = [
     originalPrice: 14.99,
     salePrice: 9.95,
     rating: 4,
+    description: "After a troubled sixth-grade year at Hills Village Middle School, Rafe Khatchadorian is ready to start fresh at a local art-centered academy. Then the restaurant where Mom works burns down, and she moves the family to Grandma's apartment in the big city 80 miles away.",
   },
   {
     id: 7,
@@ -55,6 +61,7 @@ export const books = [
     originalPrice: 14.99,
     salePrice: 9.95,
     rating: 4.5,
+    description: "Ugly Love is one of Colleen Hoover's most noteworthy releases. This story follows Tate, a woman who falls for a distraught and reticent man named Miles. When these two souls meet, their connection is undeniable. However, Miles is a broken man and he cannot offer Tate anything other than a physical relationship.",
   },
   {
     id: 8,
@@ -63,6 +70,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: null,
     rating: 5,
+    description: "In a land without magic, where the king rules with an iron hand, Celaena, an assassin, is summoned to the castle. She comes not to kill the king, but to win her freedom. If she defeats twenty-three killers, thieves, and warriors in a competition, she is released from prison to serve as the king’s champion.",
   },
   {
     id: 9,
@@ -71,6 +79,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: 29.95,
     rating: 3.5,
+    description: "During the American Revolution, Connor has sworn to secure liberty for his people and his nation and unleashes his powerful skills on the chaotic, blood-soaked battlefields of the hostile American wilderness. Assassin's Creed: Forsaken is the story behind who Connor really is and how he has become a deadly killer.",
   },
   {
     id: 10,
@@ -79,6 +88,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: 29.95,
     rating: 4.5,
+    description: "Altaïr's life story is told here for the first time: a journey that will change the course of history; his ongoing battle with the Templar conspiracy; a family life that is as tragic as it is shocking; and the ultimate betrayal of an old friend.",
   },
   {
     id: 11,
@@ -87,6 +97,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: 29.95,
     rating: 5,
+    description: "After his family was betrayed by the ruthless nobles of Renaissance Italy, young Ezio vowed to restore the honor of the da Firenze name at any cost. Learning the arts of the Assassins, he fought with both his mind and body, ultimately confronting and defeating a secret evil.",
   },
   {
     id: 12,
@@ -95,6 +106,7 @@ export const books = [
     originalPrice: 19.99,
     salePrice: 17.95,
     rating: 3.5,
+    description: "Atomic Habits by James Clear is a comprehensive, practical guide on how to change your habits and get 1% better every day. Using a framework called the Four Laws of Behavior Change, Atomic Habits teaches readers a simple set of rules for creating good habits and breaking bad ones.",
   },
   {
     id: 13,
@@ -103,6 +115,7 @@ export const books = [
     originalPrice: 29.99,
     salePrice: null,
     rating: 4.5,
+    description: "The Subtle Art of Not Giving a F*ck argues that individuals should seek to find meaning through what they find to be important and only engage in values that they can control. Values (such as popularity) that are not under a person's control, are, according to the book, 'bad values'.",
   },
   {
     id: 14,
@@ -111,6 +124,7 @@ export const books = [
     originalPrice: 29.99,
     salePrice: 19.95,
     rating: 4,
+    description: "A mystery writer is brutally assaulted in 'Big Driver' by a stranger along a Massachusetts back road and plots a revenge that will bring her face-to-face with another stranger: the one inside herself.",
   },
   {
     id: 15,
@@ -119,6 +133,7 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 19.95,
     rating: 4,
+    description: "Wedding hookups never amount to anything. Those who partake in this wicked little activity know the rules. Get in. Get laid. Get out. There’s no expectation of a relationship. It is what it is. Dylan Sparks knows the rules. She’s familiar with the protocol. And she engages in the best sex of her life with a complete stranger at her ex-boyfriend’s wedding. Reese Carroll doesn’t care about the rules. He wants more than just one night with Dylan. And Dylan finds him too addicting to pass up. Sweet Addiction is the story of one woman’s struggle to keep things casual, and one man’s desire to never let her go.",
   },
   {
     id: 16,
@@ -127,6 +142,7 @@ export const books = [
     originalPrice: 34.99,
     salePrice: null,
     rating: 5,
+    description: "The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears of its victims to disguise itself while hunting its prey.",
   },
   {
     id: 17,
@@ -135,6 +151,7 @@ export const books = [
     originalPrice: 25.99,
     salePrice: 22.95,
     rating: 3.5,
+    description: "Power is an integral part of our societies and lives. In “The 48 Laws of Power”, Robert Greene distills 3,000 years of history into 48 laws to help us understand how we can masterfully acquire power and avoid being manipulated or crushed by others.",
   },
   {
     id: 18,
@@ -143,6 +160,7 @@ export const books = [
     originalPrice: 19.99,
     salePrice: 9.95,
     rating: 3.5,
+    description: "Rich Dad Poor Dad is about Robert Kiyosaki and his two dads—his real father (poor dad) and the father of his best friend (rich dad)—and the ways in which both men shaped his thoughts about money and investing. He says that his poor dad went to Stanford and earned a Ph.",
   },
   {
     id: 19,
@@ -151,6 +169,7 @@ export const books = [
     originalPrice: 19.99,
     salePrice: null,
     rating: 4,
+    description: "In The Love Hypothesis, Olive is a third-year biology Ph.D. candidate who shares a kiss with a handsome stranger in order make her friend think that she's in a relationship. She's horrified when she realizes the 'stranger' is Dr. Adam Carlson, a prominent professor in her department who is known for being a hypercritical and moody tyrant. She and Adam each have reasons for needing to be in a relationship, and they agree to pretend to date for the sake of appearances. Of course, as she gets to know Adam, it's only a matter of time before she starts feeling something for him, and it becomes clear that her little experiment in fake-dating just might combust...",
   },
   {
     id: 20,
@@ -159,6 +178,7 @@ export const books = [
     originalPrice: 34.99,
     salePrice: 23.95,
     rating: 5,
+    description: "Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish.",
   },
   {
     id: 21,
@@ -167,6 +187,7 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 19.95,
     rating: 5,
+    description: "Shatter Me is a dystopian fiction that tells the story of a teenage girl who has never been able to experience human touch. Labelled a freak, she finds herself locked up in an asylum where she is left incomplete isolation until The Reestablishment decide that they want to use her as a weapon.",
   },
   {
     id: 22,
@@ -175,6 +196,7 @@ export const books = [
     originalPrice: 14.99,
     salePrice: null,
     rating: 4,
+    description: "Alex Volkov is a devil blessed with the face of an angel and cursed with a past he can’t escape. Driven by a tragedy that has haunted him for most of his life, his ruthless pursuits for success and vengeance leave little room for matters of the heart. But when he’s forced to look after his best friend’s sister, he starts to feel something in his chest: A crack. A melt. A fire that could end his world as he knew it.",
   },
   {
     id: 23,
@@ -183,6 +205,7 @@ export const books = [
     originalPrice: 24.99,
     salePrice: null,
     rating: 4,
+    description: "Belly measures her life in summers. Everything good, everything magical happens between the months of June and August. Winters are simply a time to count the weeks until the next summer, a place away from the beach house, away from Susannah, and most importantly, away from Jeremiah and Conrad. They are the boys that Belly has known since her very first summer—they have been her brother figures, her crushes, and everything in between. But one summer, one terrible and wonderful summer, the more everything changes, the more it all ends up just the way it should have been all along.",
   },
   {
     id: 24,
@@ -191,6 +214,7 @@ export const books = [
     originalPrice: 15.99,
     salePrice: 11.95,
     rating: 3,
+    description: "Her great grandmother had a spicy affair with her stalker! Adeline's great grandmother was murdered and she works with her best friend to figure out who did it. While trying to solve this mystery, Adeline finds herself in the same place as her great grandmother did with a hot stalker.",
   },
   {
     id: 25,
@@ -199,6 +223,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: 35.95,
     rating: 5,
+    description: "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before—and survival, for her, is second nature. Without really meaning to, she becomes a contender. But if she is to win, she will have to start making choices that weight survival against humanity and life against love.",
   },
   {
     id: 26,
@@ -207,6 +232,7 @@ export const books = [
     originalPrice: 31.99,
     salePrice: 23.95,
     rating: 4,
+    description: "In The Silent Patient, Alicia Berenson is a well-known painter who murdered her husband six years ago and hasn't spoken a word since. He was found bound to a chair with gunshot wounds to his face, and she was convicted soon thereafter. Theo Faber is a psychotherapist who hopes to treat Alicia and uncover the mystery behind her motives for killing her husband. As they sit in silence, the main clue he has is a painting she completed. She titled it Alcestis, named after a heroine in Greek mythology who sacrifices her life to save her husband.",
   },
   {
     id: 27,
@@ -215,6 +241,7 @@ export const books = [
     originalPrice: 14.99,
     salePrice: null,
     rating: 4,
+    description: "Gorgeous, cocky, and fast on his way to becoming a hotshot doctor, Josh Chen has never met a woman he couldn’t charm—except for Jules f**king Ambrose. The beautiful redhead has been a thorn in his side since they met, but she also consumes his thoughts in a way no woman ever has. When their animosity explodes into one unforgettable night, he proposes a solution that’ll get her out of his system once and for all: an enemies with benefits arrangement with simple rules. No jealousy. No strings attached. And absolutely no falling in love.",
   },
   {
     id: 28,
@@ -223,6 +250,7 @@ export const books = [
     originalPrice: 39.99,
     salePrice: null,
     rating: 4,
+    description: "Auburn Reed is determined to rebuild her shattered life and she has no room for mistakes. But when she walks into a Dallas art studio in search of a job, she doesn’t expect to become deeply attracted to the studio’s enigmatic artist, Owen Gentry. For once, Auburn takes a chance and puts her heart in control, only to discover that Owen is hiding a huge secret. The magnitude of his past threatens to destroy everything Auburn loves most, and the only way to get her life back on track is to cut Owen out of it—but can she do it?",
   },
   {
     id: 29,
@@ -231,6 +259,7 @@ export const books = [
     originalPrice: 14.99,
     salePrice: null,
     rating: 4.5,
+    description: "Stoic, broody, and arrogant, elite bodyguard Rhys Larsen has two rules: 1) Protect his clients at all costs 2) Do not become emotionally involved. Ever. He has never once been tempted to break those rules…until her. Bridget von Ascheberg. A princess with a stubborn streak that matches his own and a hidden fire that reduces his rules to ash. She’s nothing he expected and everything he never knew he needed. Day by day, inch by inch, she breaks down his defenses until he’s faced with a truth he can no longer deny: he swore an oath to protect her, but all he wants is to ruin her. Take her. Because she’s his. His princess. His forbidden fruit. His every depraved fantasy.",
   },
   {
     id: 30,
@@ -239,5 +268,6 @@ export const books = [
     originalPrice: 14.99,
     salePrice: null,
     rating: 4.5,
+    description: "Charming, deadly, and smart enough to hide it, Christian Harper is a monster dressed in the perfectly tailored suits of a gentleman. He has little use for morals and even less use for love, but he can’t deny the strange pull he feels toward the woman living just one floor below him. She’s the object of his darkest desires, the only puzzle he can’t solve. And when the opportunity to get closer to her arises, he breaks his own rules to offer her a deal she can’t refuse. Every monster has their weakness. She’s his. His obsession. His addiction. His only exception.",
   },
 ]

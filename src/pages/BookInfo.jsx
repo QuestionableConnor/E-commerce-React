@@ -9,10 +9,6 @@ const BookInfo = ({ books, addItemToCart }) => {
   const { id } = useParams();
   const book = books.find((book) => +book.id === +id);
 
-  /*function bookExistsInCart() {
-    return cart.find(book => +book.id === +id);
-  }*/
-
   return (
     <div id="books__body">
       <main id="books__main">
@@ -45,28 +41,14 @@ const BookInfo = ({ books, addItemToCart }) => {
                     Summary
                   </h3>
                   <p className="book__summary--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aspernatur repellat obcaecati, optio sequi facere,
-                    totam cumque adipisci quibusdam fugiat recusandae vel ratione
-                    error vero consequatur perspiciatis sapiente. Perferendis, id nostrum?
-                  </p>
-                  <p className="book__summary--para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aspernatur repellat obcaecati, optio sequi facere,
-                    totam cumque adipisci quibusdam fugiat recusandae vel ratione
-                    error vero consequatur perspiciatis sapiente. Perferendis, id nostrum?
+                    {book.description}
                   </p>
                 </div>
                 {
-                  /*bookExistsInCart() ? (
-                    <Link to={`/cart`} className='book__link'>
-                      <button className="btn">Checkout</button>
-                    </Link>
-                  ) : (*/
-                    <button className='btn' onClick={() => addItemToCart(book)}>
-                      Add to cart
-                    </button>
-                  }
+                  <button className='btn' onClick={() => addItemToCart(book)}>
+                    Add to cart
+                  </button>
+                }
               </div>
             </div>
           </div>
